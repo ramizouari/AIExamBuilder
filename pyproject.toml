@@ -1,5 +1,9 @@
 [project]
 name = "aiexambuilder"
 version = "0.1.0"
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.4.3",
+    "langfuse>=4.16.0",
+    "langgraph>=1.2.12",
+]
